@@ -32,6 +32,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     GoogleCameraGo
 
+# Lineage hardware
+PRODUCT_PACKAGES += \
+    vendor.lineage.touch@1.0 \
+    vendor.lineage.touch@1.0-service.sagit
+
 # Wifi Overlay
 PRODUCT_PACKAGES += \
     SagitWifiOverlay
