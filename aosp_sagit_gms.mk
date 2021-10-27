@@ -29,15 +29,12 @@ $(call inherit-product-if-exists, vendor/gapps/gapps.mk)
 $(call inherit-product-if-exists, vendor/pixelstyle/config.mk)
 $(call inherit-product-if-exists, vendor/apps/GoogleCamera/config.mk)
 
-# OTA
-$(call inherit-product-if-exists, vendor/apps/Updater/config.mk)
-
 PRODUCT_NAME := aosp_sagit_gms
 PRODUCT_DEVICE := sagit
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := MI 6
 PRODUCT_MANUFACTURER := Xiaomi
-TARGET_FACE_UNLOCK := true
+#TARGET_FACE_UNLOCK := true
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
