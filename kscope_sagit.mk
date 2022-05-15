@@ -23,6 +23,7 @@ $(call inherit-product, device/xiaomi/sagit/device.mk)
 
 # Inherit some common Kaleidoscope stuff.
 $(call inherit-product, vendor/kscope/config/mobile.mk)
+TARGET_BOOT_ANIMATION_RES := 1080
 
 PRODUCT_NAME := kscope_sagit
 PRODUCT_DEVICE := sagit
