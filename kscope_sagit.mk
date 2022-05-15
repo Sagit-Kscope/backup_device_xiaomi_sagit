@@ -32,12 +32,14 @@ PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := MI 6
 PRODUCT_MANUFACTURER := Xiaomi
 
+PRODUCT_SYSTEM_NAME := sagit
+
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 BUILD_FINGERPRINT := "google/raven/raven:12/SP2A.220405.004/8233519:user/release-keys"
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="raven-user 12 SP2A.220405.004 8233519 release-keys" \
-    PRODUCT_NAME="sagit"
+    TARGET_PRODUCT="sagit"
 
 PRODUCT_PROPERTY_OVERRIDES += ro.build.fingerprint=google/raven/raven:12/SP2A.220405.004/8233519:user/release-keys
