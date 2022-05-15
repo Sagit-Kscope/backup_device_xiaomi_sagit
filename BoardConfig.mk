@@ -13,7 +13,7 @@ TARGET_KERNEL_CONFIG := sagit_defconfig
 TARGET_OTA_ASSERT_DEVICE := sagit
 
 # SELinux
-#BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
+BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
 
 # Inherit from proprietary files
 include vendor/xiaomi/sagit/BoardConfigVendor.mk
