@@ -1,0 +1,6 @@
+runtime_resource_overlay {
+    name: "SagitWifiOverlay",
+    theme: "SagitWifiOverlay",
+    sdk_version: "current",
+    product_specific: true
+}

@@ -32,6 +32,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     GoogleCameraGo
 
+# Wifi Overlay
+PRODUCT_PACKAGES += \
+    SagitWifiOverlay
+
 # Properties
 include $(LOCAL_PATH)/vendor_prop.mk
 include $(LOCAL_PATH)/system_prop.mk
