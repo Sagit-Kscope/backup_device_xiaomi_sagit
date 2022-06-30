@@ -1,6 +1,5 @@
 #
 # Copyright (C) 2017-2018 The LineageOS Project
-# Copyright (C) 2022 Project Kaleidoscope
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -22,11 +21,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from sagit device
 $(call inherit-product, device/xiaomi/sagit/device.mk)
 
-# Inherit some common Kaleidoscope stuff.
-$(call inherit-product, vendor/kscope/config/mobile.mk)
-TARGET_BOOT_ANIMATION_RES := 1080
+# Inherit some common xdroidOSS stuff.
+$(call inherit-product, vendor/xdroid/config/common.mk)
+XDROID_BOOT := 1080
+XDROID_MAINTAINER := Nanhumly
 
-PRODUCT_NAME := kscope_sagit
+PRODUCT_NAME := xdroid_sagit
 PRODUCT_DEVICE := sagit
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := MI 6
