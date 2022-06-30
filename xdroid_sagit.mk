@@ -25,6 +25,10 @@ $(call inherit-product, device/xiaomi/sagit/device.mk)
 $(call inherit-product, vendor/xdroid/config/common.mk)
 XDROID_BOOT := 1080
 XDROID_MAINTAINER := Nanhumly
+TARGET_SUPPORTS_GOOGLE_RECORDER := false
+TARGET_INCLUDE_STOCK_ARCORE := false
+TARGET_INCLUDE_LIVE_WALLPAPERS := false
+TARGET_SUPPORTS_QUICK_TAP := false
 
 PRODUCT_NAME := xdroid_sagit
 PRODUCT_DEVICE := sagit
