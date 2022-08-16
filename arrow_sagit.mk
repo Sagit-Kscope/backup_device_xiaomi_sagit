@@ -22,11 +22,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from sagit device
 $(call inherit-product, device/xiaomi/sagit/device.mk)
 
-# Inherit some common Kaleidoscope stuff.
-$(call inherit-product, vendor/kscope/target/product/mobile.mk)
+# Inherit some common Arrow stuff.
+$(call inherit-product, vendor/arrow/config/common.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 
-PRODUCT_NAME := kscope_sagit
+PRODUCT_NAME := arrow_sagit
 PRODUCT_DEVICE := sagit
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := MI 6
