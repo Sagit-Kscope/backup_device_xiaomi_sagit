@@ -26,6 +26,7 @@ $(call inherit-product, device/xiaomi/sagit/device.mk)
 $(call inherit-product, vendor/dot/config/common.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_SUPPORTS_GOOGLE_RECORDER := true
+TARGET_SUPPORTS_BLUR := true
 
 PRODUCT_NAME := dot_sagit
 PRODUCT_DEVICE := sagit
