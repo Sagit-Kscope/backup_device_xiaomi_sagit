@@ -27,6 +27,7 @@ $(call inherit-product, vendor/dot/config/common.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_SUPPORTS_GOOGLE_RECORDER := true
 TARGET_SUPPORTS_BLUR := true
+WITH_GAPPS := true
 
 PRODUCT_NAME := dot_sagit
 PRODUCT_DEVICE := sagit
