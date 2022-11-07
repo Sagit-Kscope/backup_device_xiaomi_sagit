@@ -6,3 +6,6 @@ persist.vendor.dualcam.lpm.enable=1
 
 # Display
 ro.sf.lcd_density=480
+
+# USB
+vendor.usb.product_string=Xiaomi Mi 6
