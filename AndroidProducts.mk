@@ -1,7 +1,7 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/arrow_sagit.mk
+    $(LOCAL_DIR)/aosp_sagit.mk
 
 COMMON_LUNCH_CHOICES := \
-    arrow_sagit-user \
-    arrow_sagit-userdebug \
-    arrow_sagit-eng
+    aosp_sagit-user \
+    aosp_sagit-userdebug \
+    aosp_sagit-eng
