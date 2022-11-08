@@ -28,10 +28,6 @@ PRODUCT_PACKAGES += \
     android.hardware.ir@1.0-impl \
     android.hardware.ir@1.0-service
 
-# GoogleCameraGo
-PRODUCT_PACKAGES += \
-    GoogleCameraGo
-
 # Lineage hardware
 PRODUCT_PACKAGES += \
     vendor.lineage.touch@1.0 \
