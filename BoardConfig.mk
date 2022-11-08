@@ -12,6 +12,9 @@ TARGET_KERNEL_CONFIG := sagit_defconfig
 # Assert
 TARGET_OTA_ASSERT_DEVICE := sagit
 
+# Properties
+TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
+
 # SELinux
 BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
 

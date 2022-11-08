@@ -1,0 +1,5 @@
+# Camera
+persist.vendor.dualcam.lpm.enable=1
+
+# Display
+ro.sf.lcd_density=480
