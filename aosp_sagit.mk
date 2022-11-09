@@ -25,9 +25,6 @@ $(call inherit-product, device/xiaomi/sagit/device.mk)
 # Inherit some common PixelExperience stuff.
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
-# GoogleCamera
-$(call inherit-product-if-exists, vendor/apps/GoogleCamera/config.mk)
-
 # Gapps
 TARGET_GAPPS_ARCH := arm64
 TARGET_BOOT_ANIMATION_RES := 1080
