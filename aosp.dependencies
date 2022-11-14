@@ -1,0 +1,8 @@
+[
+  {
+    "repository": "Nanhumly/packages_apps_bsgcamera",
+    "target_path": "packages/apps/BSGCamera",
+    "branch": "main",
+    "remote": "gitlab"
+  }
+]

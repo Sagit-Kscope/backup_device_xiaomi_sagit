@@ -19,7 +19,7 @@ PRODUCT_COPY_FILES += \
 
 # GoogleCamera
 PRODUCT_PACKAGES += \
-    GoogleCamera
+    BSGCamera
     
 # Input
 PRODUCT_COPY_FILES += \
