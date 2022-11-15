@@ -1,5 +1,11 @@
 [
   {
+    "repository": "Sagit-Kscope/device_xiaomi_msm8998-common",
+    "target_path": "device/xiaomi/msm8998-common",
+    "branch": "thirteen-plus",
+    "remote": "github"
+  },
+  {
     "repository": "Nanhumly/packages_apps_bsgcamera",
     "target_path": "packages/apps/BSGCamera",
     "branch": "main",
